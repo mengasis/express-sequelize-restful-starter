@@ -1,0 +1,28 @@
+{
+  "name": "es2018-restful-starter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengasis/ES2018-restful-starter.git"
+  },
+  "keywords": [
+    "es2018",
+    "javascript",
+    "sequelize",
+    "express"
+  ],
+  "author": "Manuel Venegas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mengasis/ES2018-restful-starter/issues"
+  },
+  "homepage": "https://github.com/mengasis/ES2018-restful-starter#readme"
+}

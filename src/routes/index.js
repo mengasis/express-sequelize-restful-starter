@@ -1,7 +1,7 @@
-import { UserRoute } from './routes/UserRoute'
+import { UserRoute } from './UserRoute'
 import * as userMiddleware from '../middleware/userMiddleware'
 
-export const Router = [
+export default [
 	{
 		path: '/user',
 		middleware: [...userMiddleware],

@@ -7,7 +7,7 @@ const username = process.env.USERNAME || config.DATABASE.USER
 const password = process.env.PASSWORD || config.DATABASE.PASSWORD
 const dialect = process.env.DIALECT || config.DATABASE.DIALECT
 
-const db =  new Sequelize(database, username, password, {
+const db = new Sequelize(database, username, password, {
 	host: server,
 	dialect: dialect,
 	logging: false

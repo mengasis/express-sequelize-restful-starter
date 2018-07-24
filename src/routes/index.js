@@ -1,9 +1,10 @@
 import { UserRoute } from './routes/UserRoute'
+import * as userMiddleware from '../middleware/userMiddleware'
 
 export const Router = [
 	{
 		path: '/user',
-		middleware: [],
+		middleware: [...userMiddleware],
 		handler: UserRoute
 	}
 ]
